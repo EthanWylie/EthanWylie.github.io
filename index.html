@@ -5,15 +5,88 @@
     <head>
         <link rel="stylesheet" href="styles.css">
         <title>E-Blogs</title>
+        
+        <style>
+
+
+            *{color:cadetblue;}
+
+            h1, h2{
+                color: bisque;
+
+            }
+
+            body{
+                background-color: black;
+            }
+
+            .center{
+                text-align: center;
+                
+            }
+            
+            label:hover{
+                background-color: pink
+                
+
+            }
+        </style>
     </head>
 
 
 
     <body>
 
-        <h1>test!</h1>
+        <h1 class="center">Welcome To Electronic Blogs!</h1>
         <hr> <br>
+        <p>Loret consectetur adipisicpti. Nobis!</p>
+        <h2>Information</h2>
+        <p>Which is Your Favourtie Console?</p>
         
+        <form>
+
+            
+
+
+
+            <table border="1" cellspacing="1" cellpadding="4">
+                <tr>
+                    <th>Nintendo</th>
+                    <th>Sony</th>
+                    <th>Microsoft</th>
+                    
+                </tr>
+
+                <tr>
+                    <td>3DS</td>
+                    <td>PlayStation 4</td>
+                    <td>Xbox 360</td>
+                </tr>
+                    <td>New 3DS XL/ New 2DS XL</td>
+                    <td>PlayStation 5</td>
+                    <td>Xbox One</td>
+                <tr>
+
+            </table>
+            <br>
+
+            <input type="radio" name="info" id="info-1">
+            <label for="info-1">3DS</label> <br>
+            <input type="radio" name="info" id="info-2">
+            <label for="info-2">New 3DS XL/ New 2DS XL</label><br>
+            <input type="radio" name="info" id="info-3">
+            <label for="info-3">PlayStation 4</label><br>
+            <input type="radio" name="info" id="info-4">
+            <label for="info-4">PlayStation 5</label><br>
+            <input type="radio" name="info" id="info-5">
+            <label for="info-5">Xbox 360</label><br>
+            <input type="radio" name="info" id="info-6">
+            <label for="info-6">Xbox One</label><br>
+
+            <input type="submit" value="submit form">
+
+        </form>
+
 
 
     </body>
