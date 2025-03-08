@@ -1,0 +1,21 @@
+*{color:cadetblue;}
+
+h1, h2{
+    color: bisque;
+
+}
+
+body{
+    background-color: black;
+}
+
+.center{
+    text-align: center;
+    
+}
+
+label:hover{
+    background-color: pink
+    
+
+}
