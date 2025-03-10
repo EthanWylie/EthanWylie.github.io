@@ -1,21 +1,23 @@
-*{color:cadetblue;}
+*{color:black;}
 
 h1, h2{
-    color: bisque;
-
+    text-align: center;
 }
 
 body{
-    background-color: black;
+    background-color:bisque;
 }
 
-.center{
-    text-align: center;
-    
-}
 
 label:hover{
-    background-color: pink
+    background-color: pink;
     
+}
+
+#email:hover{
+    background-color: cyan;
+}
+#pass:hover{
+    background-color: cyan;
 
 }
