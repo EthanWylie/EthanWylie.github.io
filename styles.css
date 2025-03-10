@@ -1,23 +1,105 @@
-*{color:black;}
+* {
+    color: black;
+    box-sizing: border-box; /* Ensures padding/border don’t affect width */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
 
-h1, h2{
+/* Page Background */
+body {
+    background-color: bisque;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Headings */
+h1, h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Labels */
+label {
+    display: inline-block;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+label:hover {
+    background-color: pink;
+}
+
+#email:hover,
+#pass:hover {
+    background-color: cyan;
+}
+
+
+.account:hover {
+    background-color: darkorange;
+    transform: scale(1.05);
+}
+
+form {
+    margin-top: 20px;
+    display: inline-block;
+    text-align: left;
+}
+
+table {
+    margin: 10px auto;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
     text-align: center;
 }
 
-body{
-    background-color:bisque;
+#submit-button {
+    margin-top: 10px;
+    padding: 8px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s;
 }
 
-
-label:hover{
-    background-color: pink;
-    
+#submit-button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
 }
 
-#email:hover{
-    background-color: cyan;
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centers the h1 */
+    position: relative;
+    padding: 10px 20px;
 }
-#pass:hover{
-    background-color: cyan;
 
+.account {
+    position: absolute;
+    left: 20px; /* Keeps it on the left side */
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: orange;
+    transition: background-color 0.3s ease-in-out, transform 0.2s;
+}
+
+.account:hover {
+    background-color: darkorange;
+    transform: scale(1.05);
 }
