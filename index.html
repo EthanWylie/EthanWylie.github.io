@@ -3,6 +3,9 @@
 <html>
 
     <head>
+        <!--Make webpage look more inviting-->
+        <!--Start with the creation then style, then just js to add interactives-->
+        
         <link rel="stylesheet" href="styles.css">
 
         <script src="script.js">
@@ -11,7 +14,7 @@
 
         </script>
 
-        <title>Retro Hub</title>
+        <title>Retro Sells</title>
         
         <style>
 
@@ -21,12 +24,22 @@
 
     <body>
 
-        <h1 class="center">Welcome To The Retro Hub!</h1>
-        <h1 class="center">In Development</h1>
+        <div class="header-container">
+            <a href="account.html" class="account">Sign-Up</a>
+            <h1>Welcome To Retro Sells!</h1>
+
+        </div>
+        
+
+
+        <h1>In Development</h1>
         <hr><br>
-        <p>This website finds all the best deals and locations for your Retro Electronic</p>
+
+        <p>At 'Retro Sells' we strive to find the lowest prices of your favourtie retro electonics
+             throughout the web</p>
+
         <h2>Information</h2>
-        <p>Which is Your Favourtie Console?</p>
+        <p>Select Your Favourtie Consoles</p>
         
         <form>
 
@@ -66,7 +79,7 @@
             <input type="radio" name="info" id="info-5">
             <label for="info-5">Xbox 360</label><br>
 
-            <input type="radio" name="info" id="info-6">
+            <input type="radio" id="info-6">
             <label for="info-6">Xbox One</label><br>
 
             <input type="submit" value="submit form" id="submit-button" onclick="popup()">
