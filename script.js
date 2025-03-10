@@ -10,9 +10,9 @@ function popup(){
 
 function information(){
 
-    let xbox1 = document.getElementById("info-6");
+    let threeDS = document.getElementById("info-1");
 
-    onclick(alert(xbox1));
+    onclick(alert(threeDS));
 
 
     return 0;
